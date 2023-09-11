@@ -46,6 +46,9 @@ Y = [[3.66206796],
        [3.38453978],
        [3.53294554]]
 
+X = np.array([i[0] for i in X])
+Y = np.array([i[0] for i in Y])
+
 
 # plt.scatter(X, Y)
 # plt.axvline(0)
